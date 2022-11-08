@@ -1,0 +1,34 @@
+* {
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navSearch input {
+    text-align: center;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.category:hover {
+    cursor: pointer;
+}
+
+.category ion-icon {
+    font-size: 22px;
+}
