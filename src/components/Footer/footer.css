@@ -5,6 +5,7 @@ footer {
 }
 
 .rodape {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     position: fixed;
     bottom: 0;

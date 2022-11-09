@@ -1,0 +1,14 @@
+<div className='menu'>
+      
+      {
+        menuItems ?
+        menuItems.map((plate) => {
+          <Menu
+            title={plate.title}
+            description={plate.description}
+            price={plate.price}
+          /> 
+        }):
+          <div>Não há nada para exibir</div>
+      }
+    </div>

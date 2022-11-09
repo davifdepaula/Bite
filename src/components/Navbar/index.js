@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import logo from "../assets/bite.png"
-import ProductsPage from '../pages/productsPage'
 import { SidebarData } from './SidebarData'
 
 

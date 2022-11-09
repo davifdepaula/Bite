@@ -4,7 +4,6 @@ import Footer from '../Footer';
 import AboutPage from "../pages/about";
 import './App.css'
 import Menu from "../pages/menu";
-import ProductsPage from "../pages/productsPage";
 import Hamburguer from "../pages/hamburger";
 import Pizzas from "../pages/pizzas";
 import Dessert from "../pages/dessert";
@@ -16,8 +15,7 @@ function App() {
     <BrowserRouter>
       <Navbar />   
         <Routes>
-          <Route path ="/" element ={<ProductsPage />}/>
-          <Route path ="/menu" element ={<Menu />}/>
+          <Route path ="/" element ={<Menu />}/>
           <Route path ="/pizzas" element ={<Pizzas/>}/>
           <Route path ="/hamburguer" element ={<Hamburguer/>}/>
           <Route path ="/sobremesas" element ={<Dessert/>}/>
