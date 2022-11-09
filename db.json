@@ -2,43 +2,49 @@
     "menu": [
       {
         "id": 1,
-        "title": "Product 1",
-        "description": "Awesome Product 1",
+        "title": "Mussarela",
+        "description": "Mussarela, orégano e azeitonas pretas",
+        "image": "images/mussarela.jpg",
         "category": "pizzas",
-        "price": 10
+        "price": 39.00
       },
       {
         "id": 2,
-        "title": "Product 2",
-        "description": "Awesome Product 2",
+        "title": "Frango com catupiry",
+        "description": "Frango desfiado coberto com catupiry",
+        "image": "images/frango.jpg",
         "category": "pizzas",
-        "price": 20
+        "price": 58.00
       },
       {
         "id": 3,
-        "title": "Product 3",
-        "description": "Awesome Product 3",
+        "title": "Peperone",
+        "description": "Mussarela, peperone e fatias de pimentão",
+        "image": "images/peperone.jpg",
         "category": "pizzas",
-        "price": 30
+        "price": 57.00
       },
       {
         "id": 4,
-        "title": "Product 4",
-        "description": "Awesome Product 4",
+        "title": "Pizza Portuguesa",
+        "description": "Presunto picado, ovos, rodelas de cebola, cobertura de mussarela, molho de tomate italiano, orégano e azeitonas.",
+        "image": "images/portuguesa.jpg",
         "category": "pizzas",
-        "price": 40
+        "price": 62.00
       },
       {
         "id": 5,
-        "title": "Product 4",
-        "description": "Awesome Product 4",
+        "title": "Pizza Três Queijos",
+        "description": "Awesome frango 4",
+        "image": "images/tresqueijos.jpg",
         "category": "pizzas",
-        "price": 40
+        "price": 68.00
       },
       {
         "id": 6,
         "title": "Product 1",
         "description": "Awesome Product 1",
+        "image": "images/mussarela.jpg",
         "category": "hamburguer",
         "price": 10
       },
@@ -46,6 +52,7 @@
         "id": 7,
         "title": "Product 2",
         "description": "Awesome Product 2",
+        "image": "images/mussarela.jpg",
         "category": "hamburguer",
         "price": 20
       },
@@ -53,6 +60,7 @@
         "id": 8,
         "title": "Product 3",
         "description": "Awesome Product 3",
+        "image": "images/mussarela.jpg",
         "category": "hamburguer",
         "price": 30
       },
@@ -60,6 +68,7 @@
         "id": 9,
         "title": "Product 4",
         "description": "Awesome Product 4",
+        "image": "images/mussarela.jpg",
         "category": "hamburguer",
         "price": 40
       },
@@ -67,6 +76,7 @@
         "id": 10,
         "title": "Product 4",
         "description": "Awesome Product 4",
+        "image": "images/mussarela.jpg",
         "category": "hamburguer",
         "price": 40
       },
@@ -74,6 +84,7 @@
         "id": 11,
         "title": "Product 1",
         "description": "Awesome Product 1",
+        "image": "images/mussarela.jpg",
         "category": "dessert",
         "price": 10
       },
@@ -81,6 +92,7 @@
         "id": 12,
         "title": "Product 2",
         "description": "Awesome Product 2",
+        "image": "images/mussarela.jpg",
         "category": "dessert",
         "price": 20
       },
@@ -88,6 +100,7 @@
         "id": 13,
         "title": "Product 3",
         "description": "Awesome Product 3",
+        "image": "images/mussarela.jpg",
         "category": "dessert",
         "price": 30
       },
@@ -95,6 +108,7 @@
         "id": 14,
         "title": "Product 4",
         "description": "Awesome Product 4",
+        "image": "images/mussarela.jpg",
         "category": "dessert",
         "price": 40
       },
@@ -102,6 +116,7 @@
         "id": 15,
         "title": "Product 4",
         "description": "Awesome Product 4",
+        "image": "images/mussarela.jpg",
         "category": "dessert",
         "price": 40
       },
@@ -109,6 +124,7 @@
         "id": 16,
         "title": "Product 1",
         "description": "Awesome Product 1",
+        "image": "images/mussarela.jpg",
         "category": "drink",
         "price": 10
       },
@@ -116,6 +132,7 @@
         "id": 17,
         "title": "Product 2",
         "description": "Awesome Product 2",
+        "image": "images/mussarela.jpg",
         "category": "drink",
         "price": 20
       },
@@ -123,6 +140,7 @@
         "id": 18,
         "title": "Product 3",
         "description": "Awesome Product 3",
+        "image": "images/mussarela.jpg",
         "category": "drink",
         "price": 30
       },
@@ -130,6 +148,7 @@
         "id": 19,
         "title": "Product 4",
         "description": "Awesome Product 4",
+        "image": "images/mussarela.jpg",
         "category": "drink",
         "price": 40
       },
@@ -137,6 +156,7 @@
         "id": 20,
         "title": "Product 4",
         "description": "Awesome Product 4",
+        "image": "images/mussarela.jpg",
         "category": "drink",
         "price": 40
       }

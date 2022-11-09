@@ -1,35 +1,9 @@
-div, h1 {
-    font-family: 'Roboto', sans-serif;
+* { box-sizing: border-box;}
+
+.item h1 {
+    text-align: left;
 }
 
-.menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    margin: 20px auto;
-    gap: 15px
-    ;
-}
-
-.menuItems {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.menuItem {
-    width: 100px;
-    border: 1px solid;
-    border-radius: 5px;
-}
-
-.loading p {
-    margin: 10px;
-}
-.loading img {
-    width: 100px;
-    margin: 10px;
+h1 {
+    font-weight: 500;
 }

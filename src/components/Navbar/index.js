@@ -13,27 +13,46 @@ function Navbar() {
 return (
     <div>
         <div className='navbar'>
-            <Link to='#' className='menuBars'>
-                <div onClick={showSidebar} > 
-                    <ion-icon name="menu-outline"></ion-icon>  
-                </div>
-            </Link>
+            <div  className='menuBars'>
+                <Link to='#'>
+                    <div onClick={showSidebar} > 
+                        <ion-icon name="menu-outline"></ion-icon>  
+                    </div>
+                </Link>
+
+                <Link to="/">
+                    <div className='logo'>
+                        <img src ={logo} alt="logo" />
+                    </div> 
+                </Link>
+
+            </div>
             <div className='navSearch'>
                 <input placeholder=' Pesquisa ...' />
+                <button><ion-icon name="search-circle-outline"></ion-icon></button>
             </div>
             
-            <Link to="/menu">
-                <div className='logo'>
-                    <img src ={logo} alt="logo" />
-                </div> 
-            </Link>
+            <div className='shoppingCart'>
+                <ion-icon name="cart-outline"></ion-icon>
+            </div>
+            
         </div>
         <nav className={sidebar ? 'navbarMenu active' : 'navbarMenu'}>
             <ul className='navbarMenuItems' onClick={showSidebar}>
             <li className='navbarToggle'>
-                <Link to='#' className='menuBars'>
-                    <ion-icon name="menu-outline"></ion-icon>                
-                </Link>
+            <div className='menuBars'>
+                <Link to='#'>
+                        <div onClick={showSidebar} > 
+                            <ion-icon name="menu-outline"></ion-icon>  
+                        </div>
+                    </Link>
+
+                    <Link to="/menu">
+                        <div className='logo'>
+                            <img src ={logo} alt="logo" />
+                        </div> 
+                    </Link>
+            </div>
             </li>
             {SidebarData.map((item, index) => {
                 return (

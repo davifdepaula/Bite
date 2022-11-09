@@ -25,6 +25,13 @@ export const SidebarData = [
     icon: <ion-icon name="ice-cream-outline"></ion-icon>,
     className: 'navbarText'
   },
+
+  {
+    title: 'Bebidas',
+    path: '/bebidas',
+    icon: <ion-icon name="ice-cream-outline"></ion-icon>,
+    className: 'navbarText'
+  },
   {
     title: 'Sobre',
     path: '/sobre',

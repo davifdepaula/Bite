@@ -8,6 +8,7 @@ import Hamburguer from "../pages/hamburger";
 import Pizzas from "../pages/pizzas";
 import Dessert from "../pages/dessert";
 import Contact from "../pages/contact";
+import Drink from "../pages/drink"
 
 function App() {
   return (
@@ -18,11 +19,11 @@ function App() {
           <Route path ="/" element ={<Menu />}/>
           <Route path ="/pizzas" element ={<Pizzas/>}/>
           <Route path ="/hamburguer" element ={<Hamburguer/>}/>
+          <Route path ="/bebidas" element ={<Drink />}/>
           <Route path ="/sobremesas" element ={<Dessert/>}/>
           <Route path="/sobre" element={<AboutPage />} />
           <Route path="/contato" element={<Contact />} />
-        </Routes>
-      <Footer /> 
+        </Routes> 
     </BrowserRouter>
     </div>   
   );

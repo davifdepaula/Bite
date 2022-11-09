@@ -11,7 +11,6 @@ function AboutPage() {
         oferecendo serviços de mesa e pratos com preços moderados.  
         Nossa principal característica é misturar pratos clássicos com molhos gourmets e outras iguarias.
       </p>
-    
     </div>
   )
 }

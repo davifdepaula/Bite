@@ -1,14 +1,15 @@
 import React from 'react'
 import SearchItems from '../../searchItems'
 
-function Dessert() {
+
+function Drink() {
   return (<div className='category'>   
-    <h1>Sobremesas</h1>
+    <h1>Bebidas</h1>
     <SearchItems
-      category = "dessert"
+      category = "drink"
       />
   </div>
 )
 }
 
-export default Dessert
+export default Drink
