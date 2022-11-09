@@ -1,0 +1,23 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.socialMedia a {
+    color:#000000;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 15px;
+}
+
