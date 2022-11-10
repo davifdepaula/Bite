@@ -1,0 +1,15 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    gap:13px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.description {
+    text-align: justify;
+    margin: 15px;
+}

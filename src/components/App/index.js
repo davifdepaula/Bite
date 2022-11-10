@@ -9,6 +9,7 @@ import Pizzas from "../pages/pizzas";
 import Dessert from "../pages/dessert";
 import Contact from "../pages/contact";
 import Drink from "../pages/drink"
+import Details from "../details";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path ="/sobremesas" element ={<Dessert/>}/>
           <Route path="/sobre" element={<AboutPage />} />
           <Route path="/contato" element={<Contact />} />
+          <Route path="/menu/:menuId" element = {<Details />} />
         </Routes> 
     </BrowserRouter>
     </div>   

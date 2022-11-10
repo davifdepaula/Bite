@@ -26,7 +26,7 @@
       },
       {
         "id": 4,
-        "title": "Pizza Portuguesa",
+        "title": "Portuguesa",
         "description": "Presunto picado, ovos, rodelas de cebola, cobertura de mussarela, molho de tomate italiano, orégano e azeitonas.",
         "image": "images/portuguesa.jpg",
         "category": "pizzas",
@@ -34,7 +34,7 @@
       },
       {
         "id": 5,
-        "title": "Pizza Três Queijos",
+        "title": "Três Queijos",
         "description": "Awesome frango 4",
         "image": "images/tresqueijos.jpg",
         "category": "pizzas",
@@ -42,122 +42,122 @@
       },
       {
         "id": 6,
-        "title": "Product 1",
-        "description": "Awesome Product 1",
-        "image": "images/mussarela.jpg",
+        "title": "American Chicken",
+        "description": "Frango empanado, queijo mussarela derretido, alface americana, picles ",
+        "image": "images/americanburguer.jpg",
         "category": "hamburguer",
-        "price": 10
+        "price": 31.00
       },
       {
         "id": 7,
-        "title": "Product 2",
-        "description": "Awesome Product 2",
-        "image": "images/mussarela.jpg",
+        "title": "Burger classico",
+        "description": "110g de blend, queijo muçarela, picles e bacon ",
+        "image": "images/burgerclassico.jpg",
         "category": "hamburguer",
-        "price": 20
+        "price": 38.00
       },
       {
         "id": 8,
-        "title": "Product 3",
-        "description": "Awesome Product 3",
-        "image": "images/mussarela.jpg",
+        "title": "Cheddar",
+        "description": "110g de blend burguês, queijo cheddar, cebola em tiras mergulhada no molho shoyu e um banho de farofa de bacon",
+        "image": "images/cheddar.png",
         "category": "hamburguer",
-        "price": 30
+        "price": 43.00
       },
       {
         "id": 9,
-        "title": "Product 4",
-        "description": "Awesome Product 4",
-        "image": "images/mussarela.jpg",
+        "title": "Costela bomb",
+        "description": "Uma explosão de sabor! Molho de pimenta sriracha (Picante), 180g de costela bovina angus, queijo cheddar derretido, tiras de bacon e creme de cheddar",
+        "image": "images/bomb.png",
         "category": "hamburguer",
-        "price": 40
+        "price": 44.00
       },
       {
         "id": 10,
-        "title": "Product 4",
-        "description": "Awesome Product 4",
-        "image": "images/mussarela.jpg",
+        "title": "Crispy bacon burguer",
+        "description": "110g de blend burguês envolvida no bacon...sim, envolvida no bacon! Queijo cheddar derretido, molho à sua escolha, alface, tomate e cebola empanada pra arrematar.",
+        "image": "images/calabresa.png",
         "category": "hamburguer",
-        "price": 40
+        "price": 43.00
       },
       {
         "id": 11,
-        "title": "Product 1",
-        "description": "Awesome Product 1",
-        "image": "images/mussarela.jpg",
-        "category": "dessert",
-        "price": 10
+        "title": "Coca",
+        "description": "Coca-cola classíca, latinha 600 ml",
+        "image": "images/coca.jpg",
+        "category": "drink",
+        "price": 8.00
       },
       {
         "id": 12,
-        "title": "Product 2",
-        "description": "Awesome Product 2",
-        "image": "images/mussarela.jpg",
-        "category": "dessert",
-        "price": 20
+        "title": "Pepsi",
+        "description": "Pepsi classíca, latinha 600 ml",
+        "image": "images/pepsi.jpg",
+        "category": "drink",
+        "price": 8.00
       },
       {
         "id": 13,
-        "title": "Product 3",
-        "description": "Awesome Product 3",
-        "image": "images/mussarela.jpg",
-        "category": "dessert",
-        "price": 30
+        "title": "Fanta",
+        "description": "Fanta latinha 600 ml",
+        "image": "images/fanta.jpeg",
+        "category": "drink",
+        "price": 8.00
       },
       {
         "id": 14,
-        "title": "Product 4",
-        "description": "Awesome Product 4",
-        "image": "images/mussarela.jpg",
-        "category": "dessert",
-        "price": 40
+        "title": "Guarana",
+        "description": "Guarana latinha 600 ml",
+        "image": "images/guarana.jpg",
+        "category": "drink",
+        "price": 8.00
       },
       {
         "id": 15,
-        "title": "Product 4",
-        "description": "Awesome Product 4",
-        "image": "images/mussarela.jpg",
-        "category": "dessert",
-        "price": 40
+        "title": "Guarana jesus",
+        "description": "Guarana jesus, latinha 600 ml",
+        "image": "images/guaranajesus.jpg",
+        "category": "drink",
+        "price": 8.00
       },
       {
         "id": 16,
-        "title": "Product 1",
-        "description": "Awesome Product 1",
-        "image": "images/mussarela.jpg",
-        "category": "drink",
-        "price": 10
+        "title": "Brigadeiro ao leite",
+        "description": "Brigadeiro tradicional feito com leite moçca, creme de leite e cacau 50%.",
+        "image": "images/brigadeiro.jpg",
+        "category": "dessert",
+        "price": 5.20
       },
       {
         "id": 17,
-        "title": "Product 2",
-        "description": "Awesome Product 2",
-        "image": "images/mussarela.jpg",
-        "category": "drink",
-        "price": 20
+        "title": "Brigadeiro amargo",
+        "description": "Intenso e marcante, feito com chocolate belga 70% na massa e envolto com splits também Dark amargo",
+        "image": "images/brigadeiro.jpg",
+        "category": "dessert",
+        "price": 6.20
       },
       {
         "id": 18,
-        "title": "Product 3",
-        "description": "Awesome Product 3",
-        "image": "images/mussarela.jpg",
-        "category": "drink",
-        "price": 30
+        "title": "Brownie",
+        "description": "Uma massa densa com a mistura perfeita dos chocolates e uma leve casquinha crocante que a gente ama de paixão",
+        "image": "images/brownie.jpeg",
+        "category": "dessert",
+        "price": 11.95
       },
       {
         "id": 19,
-        "title": "Product 4",
-        "description": "Awesome Product 4",
-        "image": "images/mussarela.jpg",
-        "category": "drink",
+        "title": "Bolo de cenoura",
+        "description": "Bolo de cenoura com delicioso ganache ( calda de chocolate ) feito artesanalmente com cenouras fresquinhas",
+        "image": "images/bolocenoura.jpg",
+        "category": "dessert",
         "price": 40
       },
       {
         "id": 20,
-        "title": "Product 4",
-        "description": "Awesome Product 4",
-        "image": "images/mussarela.jpg",
-        "category": "drink",
+        "title": "Bolo formigueiro",
+        "description": "Delicioso bolo feito com massa branca sabor baunilha, e granulado, tamanho único, serve cerca de 12 fatias.",
+        "image": "images/Boloformigueiro.jpg",
+        "category": "dessert",
         "price": 40
       }
     ]
