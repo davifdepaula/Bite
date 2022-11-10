@@ -1,12 +1,13 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import hungry from "../assets/neko-table.gif"
 
 import "./details.css"
 
 function Details() {
     const {menuId} = useParams()
+    const navigate = useNavigate()
     const [product, setProduct] = useState(null)
 
   useEffect(() => {
@@ -30,6 +31,7 @@ function showProduct(product){
     <p>{product.description}</p>
     <p>{(product.price.toFixed(2))} R$</p>
     <button className='clickButton'>Adicionar ao carrinho</button>
+    <button className='clickButton' onClick={() => navigate(`/`)}>Voltar</button>
   </div>
 )
 }

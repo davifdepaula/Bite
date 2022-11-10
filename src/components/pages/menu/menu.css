@@ -7,3 +7,11 @@
 h1 {
     font-weight: 500;
 }
+
+
+@media (max-width: 1650px){
+
+    .item h1 {
+        text-align: center;
+    }
+}
