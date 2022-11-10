@@ -4,7 +4,7 @@
         "id": 1,
         "title": "Mussarela",
         "description": "Mussarela, orégano e azeitonas pretas",
-        "image": "images/mussarela.jpg",
+        "image": "/images/mussarela.jpg",
         "category": "pizzas",
         "price": 39.00
       },
@@ -12,7 +12,7 @@
         "id": 2,
         "title": "Frango com catupiry",
         "description": "Frango desfiado coberto com catupiry",
-        "image": "images/frango.jpg",
+        "image": "/images/frango.jpg",
         "category": "pizzas",
         "price": 58.00
       },
@@ -20,7 +20,7 @@
         "id": 3,
         "title": "Peperone",
         "description": "Mussarela, peperone e fatias de pimentão",
-        "image": "images/peperone.jpg",
+        "image": "/images/peperone.jpg",
         "category": "pizzas",
         "price": 57.00
       },
@@ -28,7 +28,7 @@
         "id": 4,
         "title": "Portuguesa",
         "description": "Presunto picado, ovos, rodelas de cebola, cobertura de mussarela, molho de tomate italiano, orégano e azeitonas.",
-        "image": "images/portuguesa.jpg",
+        "image": "/images/portuguesa.jpg",
         "category": "pizzas",
         "price": 62.00
       },
@@ -36,7 +36,7 @@
         "id": 5,
         "title": "Três Queijos",
         "description": "Awesome frango 4",
-        "image": "images/tresqueijos.jpg",
+        "image": "/images/tresqueijos.jpg",
         "category": "pizzas",
         "price": 68.00
       },
@@ -44,7 +44,7 @@
         "id": 6,
         "title": "American Chicken",
         "description": "Frango empanado, queijo mussarela derretido, alface americana, picles ",
-        "image": "images/americanburguer.jpg",
+        "image": "/images/americanburguer.jpg",
         "category": "hamburguer",
         "price": 31.00
       },
@@ -52,7 +52,7 @@
         "id": 7,
         "title": "Burger classico",
         "description": "110g de blend, queijo muçarela, picles e bacon ",
-        "image": "images/burgerclassico.jpg",
+        "image": "/images/burgerclassico.jpg",
         "category": "hamburguer",
         "price": 38.00
       },
@@ -60,7 +60,7 @@
         "id": 8,
         "title": "Cheddar",
         "description": "110g de blend burguês, queijo cheddar, cebola em tiras mergulhada no molho shoyu e um banho de farofa de bacon",
-        "image": "images/cheddar.png",
+        "image": "/images/cheddar.png",
         "category": "hamburguer",
         "price": 43.00
       },
@@ -68,7 +68,7 @@
         "id": 9,
         "title": "Costela bomb",
         "description": "Uma explosão de sabor! Molho de pimenta sriracha (Picante), 180g de costela bovina angus, queijo cheddar derretido, tiras de bacon e creme de cheddar",
-        "image": "images/bomb.png",
+        "image": "/images/bomb.png",
         "category": "hamburguer",
         "price": 44.00
       },
@@ -76,7 +76,7 @@
         "id": 10,
         "title": "Crispy bacon burguer",
         "description": "110g de blend burguês envolvida no bacon...sim, envolvida no bacon! Queijo cheddar derretido, molho à sua escolha, alface, tomate e cebola empanada pra arrematar.",
-        "image": "images/calabresa.png",
+        "image": "/images/calabresa.png",
         "category": "hamburguer",
         "price": 43.00
       },
@@ -84,7 +84,7 @@
         "id": 11,
         "title": "Coca",
         "description": "Coca-cola classíca, latinha 600 ml",
-        "image": "images/coca.jpg",
+        "image": "/images/coca.jpg",
         "category": "drink",
         "price": 8.00
       },
@@ -92,7 +92,7 @@
         "id": 12,
         "title": "Pepsi",
         "description": "Pepsi classíca, latinha 600 ml",
-        "image": "images/pepsi.jpg",
+        "image": "/images/pepsi.jpg",
         "category": "drink",
         "price": 8.00
       },
@@ -100,7 +100,7 @@
         "id": 13,
         "title": "Fanta",
         "description": "Fanta latinha 600 ml",
-        "image": "images/fanta.jpeg",
+        "image": "/images/fanta.jpeg",
         "category": "drink",
         "price": 8.00
       },
@@ -108,7 +108,7 @@
         "id": 14,
         "title": "Guarana",
         "description": "Guarana latinha 600 ml",
-        "image": "images/guarana.jpg",
+        "image": "/images/guarana.jpg",
         "category": "drink",
         "price": 8.00
       },
@@ -116,7 +116,7 @@
         "id": 15,
         "title": "Guarana jesus",
         "description": "Guarana jesus, latinha 600 ml",
-        "image": "images/guaranajesus.jpg",
+        "image": "/images/guaranajesus.jpg",
         "category": "drink",
         "price": 8.00
       },
@@ -124,7 +124,7 @@
         "id": 16,
         "title": "Brigadeiro ao leite",
         "description": "Brigadeiro tradicional feito com leite moçca, creme de leite e cacau 50%.",
-        "image": "images/brigadeiro.jpg",
+        "image": "/images/brigadeiro.jpg",
         "category": "dessert",
         "price": 5.20
       },
@@ -132,7 +132,7 @@
         "id": 17,
         "title": "Brigadeiro amargo",
         "description": "Intenso e marcante, feito com chocolate belga 70% na massa e envolto com splits também Dark amargo",
-        "image": "images/brigadeiro.jpg",
+        "image": "/images/brigadeiro.jpg",
         "category": "dessert",
         "price": 6.20
       },
@@ -140,7 +140,7 @@
         "id": 18,
         "title": "Brownie",
         "description": "Uma massa densa com a mistura perfeita dos chocolates e uma leve casquinha crocante que a gente ama de paixão",
-        "image": "images/brownie.jpeg",
+        "image": "/images/brownie.jpeg",
         "category": "dessert",
         "price": 11.95
       },
@@ -148,7 +148,7 @@
         "id": 19,
         "title": "Bolo de cenoura",
         "description": "Bolo de cenoura com delicioso ganache ( calda de chocolate ) feito artesanalmente com cenouras fresquinhas",
-        "image": "images/bolocenoura.jpg",
+        "image": "/images/bolocenoura.jpg",
         "category": "dessert",
         "price": 40
       },
@@ -156,7 +156,7 @@
         "id": 20,
         "title": "Bolo formigueiro",
         "description": "Delicioso bolo feito com massa branca sabor baunilha, e granulado, tamanho único, serve cerca de 12 fatias.",
-        "image": "images/Boloformigueiro.jpg",
+        "image": "/images/Boloformigueiro.jpg",
         "category": "dessert",
         "price": 40
       }

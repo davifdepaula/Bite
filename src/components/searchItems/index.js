@@ -10,20 +10,24 @@ function SearchItems(props) {
     const navigate = useNavigate()
 
     useEffect(() => {
-    const url = "http://localhost:1234/menu"
-    //const url = process.env.REACT_APP_BACKEND_URI
-    axios.get(url)
-        .then((response) => setMenuItems(response.data))
-        .catch((error) => console.log("oi deu ruim error =>", error))
+        fetchData()
     }, [])
+
+    function fetchData(){
+        const url = process.env.REACT_APP_BASE_URL
+        axios.get(url)
+            .then((response) => setMenuItems(response.data))
+            .catch((error) => console.log("oi deu ruim error =>", error))
+    }
 
     function showItems(plate){
         return (
-        <div className='menuItem' key={plate.id} onClick={() => navigate(`/menu/${plate.id}`)}>
+        <div className='menuItem' key={plate.id} >
                 <img src = {plate.image} />
                 <h2>{plate.title}</h2>
                 <p>{(plate.price.toFixed(2))} R$</p>
-                <p>detalhes</p>
+                <button className='clickButton'>Adicionar ao carrinho</button>
+                <button className='clickButton' onClick={() => navigate(`/menu/${plate.id}`)}>detalhes</button>
         </div>
     )
     }

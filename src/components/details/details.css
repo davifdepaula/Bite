@@ -1,15 +1,29 @@
-.details {
+* { box-sizing: border-box;}
+
+.itemDetails {
     display: flex;
     flex-direction: column;
     gap:13px;
     justify-content: center;
     align-items: center;
     border: 1px solid;
-    width: 30%;
+    border-radius: 20px;
+    width: 40%;
     margin: 20px auto;
+    z-index: 1;
 }
 
 .description {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: justify;
-    margin: 15px;
+    margin: 15px auto;
+}
+
+.cardBordImg img{
+    width: 100%;
+    border-top: 1px solid;
+    border-radius: 20px;
 }

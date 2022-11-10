@@ -10,19 +10,35 @@ function Details() {
     const [product, setProduct] = useState(null)
 
   useEffect(() => {
-    const url =  "http://localhost:1234/menu"
+    fetchData()
+  }, [])
+
+function fetchData(){
+  const url =  process.env.REACT_APP_BASE_URL
     axios.get(`${url}/${menuId}`)
     .then((response) => setProduct(response.data))
     .catch((error) => ("deu ruim aqui", error))
-  }, [])
+}
+
+function showProduct(product){
   return (
-    <div className='details'>
+  <div className='itemDetails' key={product.id} >
+    <div className='cardBordImg'>
+      <img src = {product.image} />
+    </div>
+    <h2>{product.title}</h2>
+    <p>{product.description}</p>
+    <p>{(product.price.toFixed(2))} R$</p>
+    <button className='clickButton'>Adicionar ao carrinho</button>
+  </div>
+)
+}
+
+  return (
+    <div className='cardDetails'>
       { product ? 
             <div>
-              <img src={product.image} alt="foto" />
-              <h2>{product.title}</h2>
-              <p className='description'>{product.description}</p>
-              <p>{(product.price.toFixed(2))} R$</p>
+              {showProduct(product)}
             </div>
           :
           <div className='loading'>
