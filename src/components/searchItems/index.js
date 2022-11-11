@@ -1,14 +1,16 @@
 import axios from 'axios'
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import hungry from "../assets/neko-table.gif"
 import "./items.css"
+import CartContext from '../../context/context'
 
 function SearchItems(props) {
     const {category} = props
+    const { handleClick } = useContext(CartContext)
     const [menuItems, setMenuItems] = useState(null)
     const navigate = useNavigate()
-
+    
     useEffect(() => {
         fetchData()
     }, [])
@@ -26,7 +28,7 @@ function SearchItems(props) {
                 <img src = {plate.image} />
                 <h2>{plate.title}</h2>
                 <p>{(plate.price.toFixed(2))} R$</p>
-                <button className='clickButton'>Adicionar ao carrinho</button>
+                <button className='clickButton' onClick={() => handleClick(plate)}>Adicionar ao carrinho</button>
                 <button className='clickButton' onClick={() => navigate(`/menu/${plate.id}`)}>detalhes</button>
         </div>
     )

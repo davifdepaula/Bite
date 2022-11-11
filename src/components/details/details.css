@@ -3,7 +3,6 @@
 .itemDetails {
     display: flex;
     flex-direction: column;
-    gap:13px;
     justify-content: center;
     align-items: center;
     border: 1px solid;
