@@ -19,10 +19,10 @@ function Order() {
             <img src={item.image} alt="" />
             <p>{item.title}</p>
           </div>
-          <div className='cartButton'>    
+          <div className='cartQuantity'>    
             <span>Quant: {(item.quantity)}</span>
           </div>
-          <div className='cartRemoveButton'>
+          <div className='cartPrice'>
             <span>preço: {(item.price).toFixed(2)} R$</span>
           </div>
         </div>
@@ -37,7 +37,7 @@ function Order() {
   function showAdress(){
     return (
       <div className='address'>
-        <span>Rua: {address.address},</span> <span>N°: {address.addressNumber},</span>
+        <span>Nome: {address.name},</span>  <span>Rua: {address.address},</span> <span>N°: {address.addressNumber},</span>
         <span>Bairro: {address.neighborhood}</span>, <span>Cep: {address.cep}</span>  
       </div>
     )

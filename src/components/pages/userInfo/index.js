@@ -31,6 +31,10 @@ function UserInfo() {
     return (
       <form onSubmit={handleSubmit(onSubmit)}>
         <label>
+          Nome completo:
+          <input type="text" {...register("name")}/>
+        </label>
+        <label>
           CEP:
           <input type="text" {...register("cep")} onBlur={checkCEP} />
         </label>
