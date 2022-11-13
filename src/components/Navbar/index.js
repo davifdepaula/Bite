@@ -11,7 +11,7 @@ import CartContext from '../../context/context'
 
 function Navbar(props) {
     const [sidebar, setSidebar] = useState(false);
-    const [show, setShow] = useState(true);
+    const {show, setShow} = useContext(CartContext);
     const [looking, setLooking] = useState("")
     let change = false
     const{ size } = props
@@ -19,7 +19,6 @@ function Navbar(props) {
     const navigate = useNavigate()
 
     const searchPlate = (e) => {
-        console.log(menuItems)
         menuItems.map((item) => { 
             if(item.title.toLowerCase() === e){
                 change = true

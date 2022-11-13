@@ -22,6 +22,8 @@ function App() {
   const [cart, setCart] = useState([])
   const [price, setPrice] = useState(0)
   const [menuItems, setMenuItems] = useState(null)
+  const [address, setAddress] = useState([])
+  const [show, setShow] = useState(true)
 
   function fetchData(){
     const url = process.env.REACT_APP_BASE_URL
@@ -70,7 +72,7 @@ function App() {
 
 
   return (
-    <CartContext.Provider value = { {cart, setCart, menuItems, setMenuItems, price, 
+    <CartContext.Provider value = { {cart, setCart, show, setShow, address, setAddress , menuItems, setMenuItems, price, 
     setPrice, fetchData,  handleChange, handleRemove, handleClick, handlePrice} }>
       <div className="App">
         <BrowserRouter>

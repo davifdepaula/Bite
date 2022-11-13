@@ -1,0 +1,25 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    width: 20%;
+  }
+  
+  label{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
+  
+  input {
+    margin-bottom: 10px;
+  }

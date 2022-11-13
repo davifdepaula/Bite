@@ -51,7 +51,7 @@ function Cart() {
         <span>{price} R$</span>
       </div>
       <div className='makeOrder'></div>
-          <button className='makeOrderBtn' onClick={() => navigate('/order')}>Continuar</button>
+          <button className='makeOrderBtn' onClick={() => navigate('/userInfo')}>Continuar</button>
       </div>
     )
   }
@@ -60,7 +60,6 @@ function Cart() {
     <div>
       {cart.length ? showCart() :
       <div className='emptyCart'><BsCartX/> Não há itens no carrinho <BsCartX/></div>
-
       }
     </div>
   )
