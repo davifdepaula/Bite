@@ -1,5 +1,9 @@
 * { box-sizing: border-box;}
 
+button {
+    background: none;
+}
+
 .items h1, button {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;

@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createContext, useState, useEffect} from "react";
+import axios from "axios";
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 import AboutPage from "../pages/about";
@@ -12,12 +13,23 @@ import Contact from "../pages/contact";
 import Drink from "../pages/drink"
 import Details from "../details";
 import Cart from "../cart";
+import Order from "../order";
+import UserInfo from "../pages/userInfo";
 
 import CartContext from "../../context/context";
 
 function App() {
   const [cart, setCart] = useState([])
   const [price, setPrice] = useState(0)
+  const [menuItems, setMenuItems] = useState(null)
+
+  function fetchData(){
+    const url = process.env.REACT_APP_BASE_URL
+    axios.get(url)
+        .then((response) => setMenuItems(response.data))
+        .catch((error) => console.log("oi deu ruim error =>", error))
+}
+
   
   const handleClick = (item) => {
     if (cart.indexOf(item) !== -1) return;
@@ -58,7 +70,8 @@ function App() {
 
 
   return (
-    <CartContext.Provider value = { {cart, setCart, price, setPrice,  handleChange, handleRemove, handleClick, handlePrice} }>
+    <CartContext.Provider value = { {cart, setCart, menuItems, setMenuItems, price, 
+    setPrice, fetchData,  handleChange, handleRemove, handleClick, handlePrice} }>
       <div className="App">
         <BrowserRouter>
           <Navbar size = {cart.length}/>   
@@ -72,6 +85,9 @@ function App() {
               <Route path="/contato" element={<Contact />} />
               <Route path="/menu/:menuId" element = {<Details />} />
               <Route path ="/cart" element={<Cart />} />
+              <Route path="/userInfo" element={<UserInfo/>} />
+
+              <Route path ="/order" element={<Order />} />
             </Routes> 
         </BrowserRouter>
         </div> 

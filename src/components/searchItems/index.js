@@ -7,20 +7,13 @@ import CartContext from '../../context/context'
 
 function SearchItems(props) {
     const {category} = props
-    const { handleClick } = useContext(CartContext)
-    const [menuItems, setMenuItems] = useState(null)
+    const { handleClick, fetchData } = useContext(CartContext)
+    const {menuItems, setMenuItems} = useContext(CartContext)
     const navigate = useNavigate()
     
     useEffect(() => {
         fetchData()
     }, [])
-
-    function fetchData(){
-        const url = process.env.REACT_APP_BASE_URL
-        axios.get(url)
-            .then((response) => setMenuItems(response.data))
-            .catch((error) => console.log("oi deu ruim error =>", error))
-    }
 
     function showItems(plate){
         return (

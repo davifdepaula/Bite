@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useContext, useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 import logo from "../assets/bite.png"
@@ -6,12 +6,40 @@ import { SidebarData } from './SidebarData'
 
 
 import './navbar.css'
+import axios from 'axios'
+import CartContext from '../../context/context'
 
 function Navbar(props) {
     const [sidebar, setSidebar] = useState(false);
     const [show, setShow] = useState(true);
+    const [looking, setLooking] = useState("")
+    let change = false
     const{ size } = props
+    const {menuItems} = useContext(CartContext)
     const navigate = useNavigate()
+
+    const searchPlate = (e) => {
+        console.log(menuItems)
+        menuItems.map((item) => { 
+            if(item.title.toLowerCase() === e){
+                change = true
+                navigate(`/menu/${item.id}`)
+            }
+            }
+        )
+        if(!change){
+            (alert("Não existe esse item no cardapio"))
+            change = false            
+        }
+        setLooking("")
+    }
+
+    const clickGlass = (element) => {
+        searchPlate(looking.toLowerCase())
+    }
+
+    
+
 
     const showSidebar = () => setSidebar(!sidebar);
     return (
@@ -32,12 +60,12 @@ function Navbar(props) {
 
                 </div>
                 <div className='navSearch'>
-                    <input placeholder=' Pesquisa ...' />
-                    <button><ion-icon name="search-circle-outline"></ion-icon></button>
+                    <input placeholder=' Pesquisa ...' value ={looking} onChange={(event) => setLooking(event.target.value)} />
+                    <button onClick={() => clickGlass(looking)}><ion-icon name="search-circle-outline"></ion-icon></button>
                 </div>
                 
                 <div className='shoppingCart' onClick={() => setShow(false)}>
-                    <ion-icon name="cart-outline" onClick={() => navigate("/cart")}></ion-icon>
+                    <ion-icon className="shoppingCartImg" name="cart-outline" onClick={() => navigate("/cart")}></ion-icon>
                     {show ? <span>{size}</span> : null}
                 </div>
                 

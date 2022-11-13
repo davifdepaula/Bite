@@ -1,13 +1,17 @@
 import React from 'react'
 import {useState, useEffect, useContext} from "react"
+import { useNavigate } from 'react-router-dom';
 import CartContext from '../../context/context';
 
 import { BsCartX } from "react-icons/bs"
+
+
 
 import './cart.css'
 
 function Cart() {
   const {cart, setCart, price, handleChange, handleRemove, handlePrice} = useContext(CartContext)
+  const navigate = useNavigate()
 
   useEffect(() => {
     handlePrice()
@@ -44,8 +48,10 @@ function Cart() {
       ))}
       <div className="total">
         <span>Valor total no seu carrinho</span>
-        <span>Rs - {price}</span>
+        <span>{price} R$</span>
       </div>
+      <div className='makeOrder'></div>
+          <button className='makeOrderBtn' onClick={() => navigate('/order')}>Continuar</button>
       </div>
     )
   }
